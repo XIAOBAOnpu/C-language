@@ -24,6 +24,7 @@ void ptrAdvanced(void)
     char arr_char_2[] = "abcdef";
     
     // ptr_char_1 and ptr_char_2 points to the same const char --> equal
+    // 首字符地址赋给了指针
     if(ptr_char_1 == ptr_char_2)
         printf("ptr_char_1 == ptr_char_2, addr is 1: %p, 2: %p\n", ptr_char_1, ptr_char_2);
     else
